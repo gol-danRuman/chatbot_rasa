@@ -9,3 +9,9 @@ pip install rasa
 rasa init
 # to initialize rasa project
 # First creates a mood bot about being sad or happy
+data/nlu.yml => for intent
+data/stories.yml => for dialogues
+domain.yml => register intent(nlu) or dialogues(stories)
+# Changes to make own bot
+rasa train 
+# to train model and add changes

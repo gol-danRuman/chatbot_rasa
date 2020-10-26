@@ -15,3 +15,6 @@ domain.yml => register intent(nlu) or dialogues(stories)
 # Changes to make own bot
 rasa train 
 # to train model and add changes
+rasa shell
+# to run server
+rasa interactive
